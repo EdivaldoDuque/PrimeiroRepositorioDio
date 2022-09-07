@@ -20,4 +20,22 @@ Salvo esse bloco de anotações na Pasta para que seja atualizado depois ao GitH
 $git status
 
 Informado que o arquivo salvo está como Untracked, para isso é preciso adicionar o arquivo para que possa ser feito o commit
-Por organização criado a pasta Procedimento $mkdir Procedimento e movido o arquivo para a pasta $mv GitGitHub.txt /Procedimento
+Por organização criado a pasta Procedimento $mkdir Procedimento e movido o arquivo alterando o nome para a pasta $mv GitGitHub.txt /Procedimento/Procedimento.txt
+
+Adicionado o arquivo e a pasta ao controle do git
+$git add .
+
+Ao verificar o status é informado as alterações realizadas, indicando que podem ser "commitadas" e não possuem conflitos, estando na área de Staged
+$git status
+
+Realizando o Commit com parâmetro -m para deixar mensagem
+&git comiit -m "Adicionando arquivos ao Repositório"
+
+Definindo pasta criada no GitHub como origin para sincronizar dados locais e upload do README.md criado na criação da pasta
+$git remote add origin https://github.com/User/Local
+
+Fazendo upload dos arquivos locais
+$git push origin master
+
+Fazendo download dos arquivos criados no GitHub
+$git pull
