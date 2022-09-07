@@ -1,0 +1,23 @@
+Baixando o GIT através do SITE https://git-scm.com/downloads
+
+Executando e definindo minha área de workspace local no Git Bash através dos comandos do S.O. Windows
+
+criando a pasta do workspace através do $ mkdir PrimeiroRepositorio-DIO
+acessando a pasta através do $ cd PrimeiroRepositorio-DIO
+
+Já tendo a identidade (user.name e user.email) configurados no GitHub e informados ao Git através dos comandos
+$git config --global user.name "NickdoGitHub"
+$git config --global user.email "EmaildaContaGitHub"
+
+*Caso inicialmente essa configuração tenha sido feito com logins diferentes do GitHub pode ser alterado para conexão e manterá o histórico da alteração com o login inicial
+
+Adicionando a Pasta criada ao Repositório através do comando git init .
+$git init .
+
+Após isso é definido como master o repositório informado.
+
+Salvo esse bloco de anotações na Pasta para que seja atualizado depois ao GitHub, neste momento será verificado o status das informações
+$git status
+
+Informado que o arquivo salvo está como Untracked, para isso é preciso adicionar o arquivo para que possa ser feito o commit
+Por organização criado a pasta Procedimento $mkdir Procedimento e movido o arquivo para a pasta $mv GitGitHub.txt /Procedimento
